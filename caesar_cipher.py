@@ -2,6 +2,9 @@ from string import ascii_letters
 
 
 def encrypt(string, shift):
+    """
+    Time complexity: O(n)
+    """
     alphabet = ascii_letters
     result = ""
 
